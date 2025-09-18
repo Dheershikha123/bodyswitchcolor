@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .button{
+            display:inline-block;
+            width:400px;
+            height:400px;
+            border-radius:20%;
+            margin: 5px;
+            cursor:pointer;
+            border:2px solid black;
+        }
+        #grey{
+            background:grey;
+        }
+        #hotpink{
+            background:hotpink;
+        }
+        #dodgerblue{
+            background:dodgerblue;
+        }
+        #burlywood{
+            background:burlywood;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="/" aria-current="page">Home</a>
+        <a target="blank" href="https://www.youtube.com/results?search_query=oops+one+shot">Youtube channel</a>
+    </nav>
+    <div class="canvas">
+        <h1>Color Scheme Switcher</h1>
+        <span class="button" id="grey"></span>
+        <span class="button" id="hotpink"></span>
+        <span class="button" id="dodgerblue"></span>
+        <span class="button" id="burlywood"></span>
+        <h2>
+            Try clicking on one of the colors above
+            <span>To change the background color of this page</span>
+        </h2>
+    </div>
+    <script src="colorswitcher.js"></script>
+</body>
+</html>
