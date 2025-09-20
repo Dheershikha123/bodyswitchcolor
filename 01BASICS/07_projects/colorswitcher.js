@@ -18,4 +18,5 @@ buttons.forEach(button=>{//here we are iterating over each button and each butto
                 body.style.backgroundColor= e.target.id;//or we can simple give'red
              }
     })
+    
 });
